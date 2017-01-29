@@ -1,0 +1,268 @@
+html,
+body {
+	height: 100%
+}
+
+h1 {
+	/*float: left;*/
+	background-color: #4aaaa5; 
+	width: 300px;
+	font-size: 24px;
+	padding: 25px 25px 25px 10px;
+	text-align: center;
+	font-weight: bold;
+	color: white;
+}
+
+header {
+	background-color: #ffffff;
+	margin: 0px;
+	max-width: 100%;
+	height: 75px;
+	border-bottom: 2px solid #ccc;
+}
+
+nav {
+  margin-top: 25px;
+}
+
+nav a {
+  display: inline-block;
+  margin-left: 15px;
+  padding-left: 15px;
+  color: #999;
+  text-decoration: none;
+  line-height: 18px;
+  border-left: 1px solid #efefef;
+}
+
+.section-left
+{
+	background-color: #ffffff;
+	height: auto;
+	margin-top: 20px;
+	margin-left: 15px;
+}
+
+.page-heading
+{
+	clear: both;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 24px;
+	color: #4aaaa5;
+	font-weight: bold;
+	margin: 20px 20px 20px 0px;
+}
+
+.line-heading
+{
+	height: 3px; 
+	width: 100%; 
+	background-color: #ccc;
+	border-color: #fff;
+	margin-bottom: 20px;
+}
+
+.myimage {
+	float: left;
+	margin: 0px;
+	padding-right: 10px;
+}
+
+p {
+	clear: both;
+	display: inline;
+	line-height: 230%;
+	word-wrap: normal;
+	color: #777;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.aside {
+	padding: 30px;
+	border: 1px #ffffff;
+	margin: 20px 0px 0px 10px;
+	
+	background: #ffffff;
+	max-width: 270px;
+
+}
+
+.connect {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 18px;
+	color: #4aaaa5;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+#project {
+	position: relative;
+	/*float: left;*/
+	padding-bottom: 30px;
+	padding-top: 20px;
+	padding-right: 10px;
+}
+
+h3 {
+	position: absolute;
+	bottom: 0px;
+	background-color: #4aaaa5;
+	width: 280px;
+	color: white;
+	font-size: 20px;
+	text-align: center;
+	padding: 15px;
+}
+
+.wrapper {
+  	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto -50px;
+}
+
+footer,
+.push {
+  	height: 50px;
+}
+
+.form {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777;
+	padding-top: 10px;
+}
+
+ 
+
+input {
+	width: 100%;
+    padding: 10px 10px;
+    margin: 15px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-size: 12px;
+    color: #ccc; 
+}
+
+textarea {
+	margin-top: 17px;
+	margin-bottom: 20px;
+	border-color: #ccc;
+	
+}
+
+button {
+	background: #4aaaa5;
+	padding: 10px 30px 10px 30px;
+	color: white;
+	font-size: 15px;	
+}
+
+/*****/
+* {
+    box-sizing: border-box;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+[class*="col-"] {
+    float: left;
+    padding: 0px 15px 15px 15px;
+}
+
+
+.footer {
+    background-color: #0099cc;
+    color: #ffffff;
+    text-align: center;
+    font-size: 12px;
+    padding: 15px;
+}
+
+/* For mobile phones: */
+	[class*="col-"] {
+	    width: 100%;
+	}
+
+@media only screen and (max-width: 580px) {
+/* For mobile: */
+.col-s-0 {display: none}
+.col-s-1 {width: 8.33%;}
+.col-s-2 {width: 16.66%;}
+.col-s-3 {width: 25%;}
+.col-s-4 {width: 33.33%;}
+.col-s-5 {width: 41.66%;}
+.col-s-6 {width: 50%;}
+.col-s-7 {width: 58.33%;}
+.col-s-8 {width: 66.66%;}
+.col-s-9 {width: 75%;}
+.col-s-10 {width: 83.33%;}
+.col-s-11 {width: 91.66%;}
+.col-s-12 {width: 100%;}
+
+h1 {
+	background-color: #4aaaa5; 
+	width: 100%;
+	font-size: 24px;
+	text-align: center;
+	font-weight: bold;
+	color: white;
+}
+
+.name { padding: 0px; }
+
+.nav-links { background-color: #fff; padding-left: 100px; }
+
+p { display: block; }
+
+.myimage { width: 100% }
+
+.image3 {width: 100% }
+
+.aside { width: 100%; }
+
+h3 { width: 95% ; }
+
+}
+
+@media only screen and (min-width: 600px) {
+    /* For tablets: */
+    .col-m-1 {width: 8.33%;}
+    .col-m-2 {width: 16.66%;}
+    .col-m-3 {width: 25%;}
+    .col-m-4 {width: 33.33%;}
+    .col-m-5 {width: 41.66%;}
+    .col-m-6 {width: 50%;}
+    .col-m-7 {width: 58.33%;}
+    .col-m-8 {width: 66.66%;}
+    .col-m-9 {width: 75%;}
+    .col-m-10 {width: 83.33%;}
+    .col-m-11 {width: 91.66%;}
+    .col-m-12 {width: 100%;}
+
+    .aside { width: 100%; }
+}
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+
+    .aside {
+		width: 200px;
+	}
+
+}
